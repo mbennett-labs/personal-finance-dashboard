@@ -1,11 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/personal-finance-dashboard/',
-  server: {
-    port: 5173,
-    open: true
-  }
-});
+  base: '/personal-finance-dashboard/'
+})
